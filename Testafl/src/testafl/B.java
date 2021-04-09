@@ -12,22 +12,22 @@ public class B extends A {
     {
         Scanner ag1 = new Scanner(System.in);  
         System.out.print("enter your identificate number :  ");
-        ns=ag1.nextInt();
-        System.out.println(" your ns is : "+ns);
+        this.ns=ag1.nextInt();
+        System.out.println(" your ns is : "+this.ns);
         System.out.print("enter your age :  ");
-        ag=ag1.nextInt();
-        System.out.println(" your ns is : "+ag);
+        this.ag=ag1.nextInt();
+        System.out.println(" your ns is : "+this.ag);
         System.out.print("enter your child number :  ");
-        child=ag1.nextInt();
-        System.out.println(" your have : "+child+"childrens");
+        this.child=ag1.nextInt();
+        System.out.println(" your have : "+this.child+"childrens");
         
         System.out.println(" enter your endecape percent : ");
         for (int i=0;i<3;i++)
         {
-        pcen=ag1.nextInt();
-        if (pcen>0 && pcen<100)
+        this.pcen=ag1.nextInt();
+        if (this.pcen>0 && this.pcen<100)
         {
-        System.out.println(" your ns is : "+pcen);
+        System.out.println(" your ns is : "+this.pcen);
         System.out.println("");System.out.println("");System.out.println("");
         
   

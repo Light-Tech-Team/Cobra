@@ -10,24 +10,18 @@ public class A
         
     public void citizen()
     {
+   
         Scanner ag1 = new Scanner(System.in);  
         System.out.print("enter your identificate number :  ");
-        ns=ag1.nextInt();
-        System.out.println(" your ns is : "+ns);
+       this.ns=ag1.nextInt();
+        System.out.println(" your ns is : "+this.ns);
         System.out.print("enter your age :  ");
-        ag=ag1.nextInt();
-        System.out.println(" your age is : "+ag);
+        this.ag=ag1.nextInt();
+        System.out.println(" your age is : "+this.ag);
         System.out.print(" How many children are you  : ");
-        child=ag1.nextInt();
-        System.out.println(" your have : "+child+ " childrens");
+        this.child=ag1.nextInt();
+        System.out.println(" your have : "+this.child+ " childrens");
         System.out.println("");System.out.println("");System.out.println("");
-        
-        
-        
-        
-    
-    
-    
     
     
     }
