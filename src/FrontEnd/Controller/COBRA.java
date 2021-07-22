@@ -1,5 +1,5 @@
 
-package cobra.FXML;
+package FrontEnd.Controller;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
